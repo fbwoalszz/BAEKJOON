@@ -5,10 +5,10 @@
 /////* If input is 18, the correct answer is 05728.
 /////* But according to this code, the answer is 5728.
 /// It is problem too, but not correct reason.
-/// The reason is line 21.
+/// The reason is line 24.
 /// But...I don't know why using 1000000000000(10^12).
 /// To be sure, under 10^12 or over 10^12, it's worng answer.
-/// Maybe, If over 10^12, there is overflow in line 19. (My thought)
+/// Maybe, If over 10^12, there is overflow in line 20. (My thought)
 
 int main() {
 	int input;
